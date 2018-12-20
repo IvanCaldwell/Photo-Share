@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="analog-analog-camera-analogue-861440" translatesAutoresizingMaskIntoConstraints="NO" id="wjy-TX-QaO">
+                                <rect key="frame" x="0.0" y="149.5" width="375" height="323.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~ Quick Share ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-DN-AIt">
+                                <rect key="frame" x="0.0" y="473" width="375" height="48.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fG-q0-LwN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="129.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5fG-q0-LwN" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.2" id="1UC-2K-Xl4"/>
+                            <constraint firstItem="5fG-q0-LwN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4Qe-2w-xVy"/>
+                            <constraint firstItem="wjy-TX-QaO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="64f-X9-Dgi"/>
+                            <constraint firstItem="D8Q-DN-AIt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AsQ-P1-OSG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5fG-q0-LwN" secondAttribute="trailing" id="EbU-fx-jq6"/>
+                            <constraint firstItem="D8Q-DN-AIt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OQr-Xn-g3Z"/>
+                            <constraint firstItem="D8Q-DN-AIt" firstAttribute="height" secondItem="wjy-TX-QaO" secondAttribute="height" multiplier="0.15" id="Quf-89-mRb"/>
+                            <constraint firstItem="wjy-TX-QaO" firstAttribute="top" secondItem="5fG-q0-LwN" secondAttribute="bottom" id="R1d-PH-201"/>
+                            <constraint firstItem="5fG-q0-LwN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cSn-sQ-BhI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D8Q-DN-AIt" secondAttribute="trailing" id="hWn-2v-7bt"/>
+                            <constraint firstItem="wjy-TX-QaO" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="rNO-4S-Z9t"/>
+                            <constraint firstItem="5fG-q0-LwN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sU3-64-fJ0"/>
+                            <constraint firstItem="D8Q-DN-AIt" firstAttribute="top" secondItem="wjy-TX-QaO" secondAttribute="bottom" id="vvp-6R-K7f"/>
+                            <constraint firstItem="wjy-TX-QaO" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1:2" id="vwC-2d-DDZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="analog-analog-camera-analogue-861440" width="8192" height="7574"/>
+    </resources>
+</document>
